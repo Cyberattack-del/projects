@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holographic Weather 2090</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three/examples/js/loaders/GLTFLoader.js"></script>
+</head>
+<body>
+    <div id="weather-dashboard">
+        <h2>HOLOGRAPHIC WEATHER 2090</h2>
+        <input type="text" id="searchBar" placeholder="Enter city name">
+        <button onclick="searchWeather()">Search</button>
+        <p id="location">Mumbai, IN</p>
+        <p id="temperature">30°C</p>
+        <p id="condition">Haze</p>
+        <button id="voiceBtn">🎙 Voice Command</button>
+        <button id="arMode">🌐 AR Mode</button>
+    </div>
+
+    <!-- Satellite 3D Model -->
+    <div id="satellite-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

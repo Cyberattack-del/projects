@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
+    background: radial-gradient(circle, #0a0a0a, #020202);
+    color: cyan;
+    overflow: hidden;
+}
+
+.holo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.holo-globe {
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+
+.weather-panel {
+    text-align: center;
+    background: rgba(0, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    border: 1px solid cyan;
+    box-shadow: 0px 0px 20px cyan;
+}
+
+.title {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.weather-info p {
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+#voiceBtn {
+    background: cyan;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#voiceBtn:hover {
+    background: white;
+}

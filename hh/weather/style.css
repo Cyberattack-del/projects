@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+    color: cyan;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#weather-dashboard {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 50px;
+    border: 2px solid cyan;
+}
+
+button {
+    background: cyan;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    color: black;
+}
+
+#satellite-container {
+    width: 100vw;
+    height: 50vh;
+}

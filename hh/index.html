@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard 2090</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="holo-container">
+        <div class="holo-globe">
+            <canvas id="globeCanvas"></canvas>
+        </div>
+        <div class="weather-panel">
+            <h1 class="title">Holographic Weather 2090</h1>
+            <div class="weather-info">
+                <p id="location">Loading...</p>
+                <p id="temperature">--°C</p>
+                <p id="condition">--</p>
+            </div>
+            <button id="voiceBtn">🎤 Voice Command</button>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
